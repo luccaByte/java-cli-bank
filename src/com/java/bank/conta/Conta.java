@@ -37,4 +37,12 @@ public class Conta {
     public void setConta(String conta) {
         this.conta = conta;
     }
+
+    public void deposito(double valor) {
+        this.saldo += valor;
+    }
+
+    public void saque (double valor) {
+        this.saldo -= valor;
+    }
 }
